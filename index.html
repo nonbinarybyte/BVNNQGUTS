@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8" />
+            <title>Home.</title>
+            <meta name="viewport" content="width=device-width,initial-scale=1" />
+            <meta name="description" content="Welcome!!" />
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
+            <link href="index.css" rel="stylesheet" />
+            <link rel="icon" href="assets\\img\\favion.png">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+        </head>
+        <body>
+            <header class="HDR" id="HDR">
+                <div class="HDR-LOGO">
+                    <img id="HDR-LOGO" src="assets\img\stand-1.png" width="200" height="200" />
+                </div>
+                <div class="HDR-TXT-MID">
+                    <h1>BVNNQGUTS MC</h1>
+                </div>
+                <div class="HDR-MENU-RIGHT">
+                    <div class="hamburger-menu">
+                        <input id="menu__toggle" type="checkbox" />
+                        <label class="menu__btn" for="menu__toggle">
+                            <span></span>
+                        </label>
+                        <ul class="menu__box">
+                            <li><a class="menu__item" href="index.php">Home</a></li>
+                            <li><a class="menu__item" href="#About">About</a></li>
+                            <li><a class="menu__item" href="server.php">Minecraft Server</a></li>
+                            <li><a class="menu__item" href="#Contact">Contact</a></li>
+                            <li><a class="menu__item" href="https://x.com/bvnnqguts">Twitter</a></li>
+                            <li><a class="menu__item" href="#">Discord (W.I.P)</a></li>
+                            <li><a class="menu__item" href="https://www.youtube.com/@nonbinarybyte">YouTube</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+            <main>
+                <article>
+                    <section class="About" id="About">
+                        <h2>About</h2>
+                        <p>Welcome to BVNNQGUTS MC, a community-driven Minecraft server dedicated to inclusivity and creativity. Join us for an unforgettable gaming experience!</p>
+                    </section>
+                    <section class="news" id="news">
+                        <h2>Sign Up for the newsletter!</h2>
+                        <p>Stay updated with the latest news and events by signing up for our newsletter. Enter your email below:</p>
+                        <form action="https://script.google.com/macros/s/AKfycbwnD1NgFhn1jhsRGMBfNupVMrgN0Tg-OOLBWs_JihKQknU-WpUdPlGVOhOdxd57bTV26w/exec" method="post">
+                            <input class="email" id="email" type="email" name="email" placeholder="Enter your email" required />
+                            <input class="email" id="email" type="text" name="name" placeholder="Enter your name" required />
+                                <br />
+                            <button class="submit" id="submit" type="submit">Subscribe</button>
+                        </form>
+                    </section>
+                </article>
+            </main>
+            <footer>
+                <small>© <script>document.write(new Date().getFullYear())</script> BVNNQGUTS MC. All Rights Reserved.</small>
+            </footer>
+            <script src="index.js"></script>
+        </body>
+    </html>
